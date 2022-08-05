@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -35,17 +38,19 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="logo">
-        <a class="logo__link" href="">
-          <img class="logo__image" src="assets/img/logo.svg" alt="logo">
-          <strong class="logo__title">BEAUTY</stro>
-        </a>
-      </div>
+    <div class="navbar-info">
+      <div class="container container--logo">
+        <div class="logo">
+          <a class="logo__link" href="">
+            <img class="logo__image" src="assets/img/logo.svg" alt="logo">
+            <strong class="logo__title">BEAUTY</strong>
+          </a>
+        </div>
 
-      <div class="feedback">
-        <a class="feedback__phone" href="tel:+88121234567">8 (812) 123-45-67</a>
-        <button class="feedback__button" type="button">Обратный звонок</button>
+        <div class="feedback">
+          <a class="feedback__phone" href="tel:+88121234567">8 (812) 123-45-67</a>
+          <button class="feedback__button btn btn--primary" type="button">Обратный звонок</button>
+        </div>
       </div>
     </div>
 
@@ -74,6 +79,81 @@
       </div>
     </nav>
   </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">Супер кресло</h1>
+          <div class="hero__description">Текст акции всегда отражает суть, а не просто
+            болтовню, поэтому внимательнее</div>
+          <div class="hero__actions">
+            <a class="hero__button btn btn--secondary" href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="container">
+        <h2 class="offers__title">Специальные предложения</h2>
+        <div class="offers__content">
+          <article class="offer-item">
+            <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div class="offer-item__picture">
+              <img class="offer-item__image" src="assets/img/special.png" alt="">
+            </div>
+            <div class="offer-item__price">9 900 ₽ </div>
+            <div class="offer-item__actions">
+              <a class="offer-item__button btn btn--sm" href="">Купить</a>
+            </div>
+          </article>
+          <article class="offer-item">
+            <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div class="offer-item__picture">
+              <img class="offer-item__image" src="assets/img/special.png" alt="">
+            </div>
+            <div class="offer-item__price">9 900 ₽ </div>
+            <div class="offer-item__actions">
+              <a class="offer-item__button btn btn--sm" href="">Купить</a>
+            </div>
+          </article>
+          <article class="offer-item">
+            <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div class="offer-item__picture">
+              <img class="offer-item__image" src="assets/img/special.png" alt="">
+            </div>
+            <div class="offer-item__price">9 900 ₽ </div>
+            <div class="offer-item__actions">
+              <a class="offer-item__button btn btn--sm" href="">Купить</a>
+            </div>
+          </article>
+          <article class="offer-item">
+            <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div class="offer-item__picture">
+              <img class="offer-item__image" src="assets/img/special.png" alt="">
+            </div>
+            <div class="offer-item__price">9 900 ₽ </div>
+            <div class="offer-item__actions">
+              <a class="offer-item__button btn btn--sm" href="">Купить</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="submit">
+      <div class="container container--submit">
+        <div class="subscribe"></div>
+        <div class="location"></div>
+      </div>
+    </section>
+
+
+    <section></section>
+    <section></section>
+
+  </main>
 
 </body>
 
